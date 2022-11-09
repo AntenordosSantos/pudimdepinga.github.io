@@ -1,1 +1,46 @@
-test
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pudim é de Pinga!">
+    <title>PudimDePinga</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <img class="topo-imagem" src="logo.jpg.jpg" alt="logo Pudim de Pinga">
+        <nav class="topo-menu">
+            <a class="topo-menu-item" href="https://www.instagram.com/pudimdepinga.floripa/" target="_blank" rel="noopener noreferrer">Quem somos</a>
+            <a class="topo-menu-item" href="https://wa.me/message/5GPYJ65CS2OCI1" target="_blank" rel="noopener noreferrer">Conheça nossos produtos</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+             <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Pudim de Pinga</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Quitutes Alcólicos</h2>
+                <a href="https://wa.me/message/5GPYJ65CS2OCI1" target="_blank" rel="noopener noreferrer"><button class="conteudo-principal-escrito-botao">EU QUERO!</button></a>
+             </div>
+             <img class="logoG" src="pudim.img" alt="">
+        </section>
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Feito para adultos!</h3>
+            <p class="comteudo-secundario-paragrafo">Don`t eat and dive!</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p class="rodape-info"><strong>Conecte-se</strong> através das <strong>redes sociais</strong>:</p>
+        <ul class="rodape-lista">
+            <li class="rodape-lista-item">Converse com <a href="https://wa.me/message/5GPYJ65CS2OCI1" target="_blank" rel="noopener noreferrer">PudimDePinga</a></li>
+             <li class="rodape-lista-item">Siga no Instagran <a href="https://www.instagram.com/pudimdepinga.floripa/" target="_blank" rel="noopener noreferrer">@pudimdepingafloripa</a></li>
+        </ul>
+    </footer>
+    <script>
+      var  n1 = Number(window.prompt('Em que ano você nasceu?'));
+      var  idade = 2022 - n1;
+      var maior = idade >= 18 ? ' e você é maior de idade!' : ' anos e você não tem idade para isso!';
+      window.alert(`Você tem ` + idade + maior);
+    </script>
+</body>
+</html>
